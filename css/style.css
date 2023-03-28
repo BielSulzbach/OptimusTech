@@ -1,0 +1,37 @@
+@import "./cabeçario.css";
+@import "./main.css";
+@import "./tabelas.css";
+@import "./imagem.css";
+@import "./designer.css";
+@import "./Software.css";
+@import "./perfil.css";
+@import "./rodape.css";
+
+.tabela{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-areas: 
+    'head cabeçario cabeçario fim'
+    'main main main main'
+    'textA textB textC textD'
+    'textE textE textE textE'
+    'foto foto foto foto'
+    'design design design design'
+    'textH textH textH textH'
+    'textI textI textI textI'
+    'textJ textJ textJ textJ'
+    'textK textK textK textK'
+    'textL textL textL textL'
+    'textM textM textM textM'
+    'xxx xxx xxx xxx'
+    'footer footer footer footer';
+    width: 1440px;
+   }
+   
+   .f{
+    grid-area: foto;
+    height: 400px;
+    align-self: center;
+    margin-left: 112px;
+   }
